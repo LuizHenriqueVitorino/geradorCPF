@@ -29,6 +29,6 @@ function gerarDigitoVerificador(numero=""){
 
 function gerarCPF(){
     let numero = gerarDigitos()
-    numero = numero.substring(0,3)+"-"+numero.substring(3,6)+"-"+numero.substring(6,9)+"."+numero.substring(9);
+    numero = numero.substring(0,3)+"."+numero.substring(3,6)+"."+numero.substring(6,9)+"-"+numero.substring(9);
     cpf.innerHTML = numero;
 }
