@@ -25,12 +25,12 @@ main{
     flex-direction: column;
     width: 50%;
     height: 200px;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
 }
 h2{
     margin-bottom: 20px;
+    text-align: center;
 }
 #gerador_cpf{
     display: flex;
